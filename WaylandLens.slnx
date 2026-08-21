@@ -1,2 +1,6 @@
 <Solution>
+  <Project Path="WaylandLens.Application/WaylandLens.Application.csproj" />
+  <Project Path="WaylandLens.Domain/WaylandLens.Domain.csproj" />
+  <Project Path="WaylandLens.Infrastructure/WaylandLens.Infrastructure.csproj" />
+  <Project Path="WaylandLens.Presentation.CLI/WaylandLens.Presentation.CLI.csproj" />
 </Solution>

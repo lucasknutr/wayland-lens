@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zA+iFeATuWU=",
+  "success": true,
+  "projectFilePath": "/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/WaylandLens.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/lucasknutr/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.10/microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
