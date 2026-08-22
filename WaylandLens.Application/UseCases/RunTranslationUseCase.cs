@@ -7,7 +7,12 @@ public class RunTranslationUseCase(
     IOcrService ocrService,
     IScreenCaptureService screenCaptureService)
 {
-    private readonly IScreenCaptureService _screenCaptureService = screenCaptureService;
-    private readonly ITranslationService _translationService = translationService;
-    private readonly IOcrService _ocrService = ocrService;
+    public async Task<string> ExecuteAsync(string targetLanguage)
+    {
+        var image = await screenCaptureService.CaptureScreenAsync();
+        var textResult = await ocrService.GetOcrResultAsync(image);
+        var translatedText = await translationService.TranslateAsync(textResult.RawText, targetLanguage);
+        
+        return translatedText;
+    }
 }
