@@ -16,6 +16,9 @@ public class GrimSlurpCaptureService : IScreenCaptureService
          RedirectStandardOutput = true,
          CreateNoWindow = true,
       };
+      
+      processInfo.ArgumentList.Add("-c");
+      processInfo.ArgumentList.Add("grim -g \"$(slurp)\" -");
 
       using var process = new Process();
       process.StartInfo = processInfo;
