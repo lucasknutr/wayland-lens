@@ -16,21 +16,21 @@ public class TesseractCliOcrService : IOcrService
         var processInfo = new ProcessStartInfo
         {
             FileName = "tesseract",
-            Arguments = $"\"\\\"{filePath}\\\" stdout -l eng+rus",
             RedirectStandardOutput = true,
             CreateNoWindow = true,
             UseShellExecute = false
         };
+        
+        processInfo.ArgumentList.Add(filePath);
+        processInfo.ArgumentList.Add("stdout");
+        processInfo.ArgumentList.Add("-l");
+        processInfo.ArgumentList.Add("eng+rus");
 
-        using var process = new Process();
-        process.StartInfo = processInfo;
-
+        using var process = new Process { StartInfo = processInfo };
         process.Start();
 
         var extractedText = await process.StandardOutput.ReadToEndAsync();
-
         await process.WaitForExitAsync();
-
         File.Delete(filePath);
 
         return new OcrResult{ RawText = extractedText };
