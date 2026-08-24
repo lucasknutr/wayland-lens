@@ -1,0 +1,16 @@
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/bin/Debug/net10.0/WaylandLens.Application.deps.json
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/bin/Debug/net10.0/WaylandLens.Application.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/bin/Debug/net10.0/WaylandLens.Application.pdb
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/bin/Debug/net10.0/WaylandLens.Domain.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/bin/Debug/net10.0/WaylandLens.Domain.pdb
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.csproj.AssemblyReference.cache
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.AssemblyInfoInputs.cache
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.AssemblyInfo.cs
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.csproj.CoreCompileInputs.cache
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.sourcelink.json
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandL.4D2D1302.Up2Date
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/refint/WaylandLens.Application.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/WaylandLens.Application.pdb
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Application/obj/Debug/net10.0/ref/WaylandLens.Application.dll
