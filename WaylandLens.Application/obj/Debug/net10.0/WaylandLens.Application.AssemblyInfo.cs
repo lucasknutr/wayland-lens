@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WaylandLens.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fa875ab5dc0463674356225f9b9eb17121548df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78bb017029153723b465bcb531fc5a7d286f5e01")]
 [assembly: System.Reflection.AssemblyProductAttribute("WaylandLens.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WaylandLens.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
