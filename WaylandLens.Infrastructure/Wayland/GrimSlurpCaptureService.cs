@@ -11,7 +11,6 @@ public class GrimSlurpCaptureService : IScreenCaptureService
       var processInfo = new ProcessStartInfo
       {
          FileName = "bash",
-         Arguments = "-c \"grim -g \\\"$(slurp)\\\" -\"",
          UseShellExecute = false,
          RedirectStandardOutput = true,
          CreateNoWindow = true,
