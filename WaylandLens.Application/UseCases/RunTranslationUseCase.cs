@@ -1,4 +1,5 @@
 using WaylandLens.Domain.Interfaces;
+using WaylandLens.Domain.Entities;
 
 namespace WaylandLens.Application.UseCases;
 
@@ -7,21 +8,16 @@ public class RunTranslationUseCase(
     IOcrService ocrService,
     IScreenCaptureService screenCaptureService)
 {
-    public async Task<string> ExecuteAsync(string targetLanguage)
+    public async Task<TranslationResult> ExecuteAsync(string targetLanguage)
     {
         var image = await screenCaptureService.CaptureScreenAsync();
         var textResult = await ocrService.GetOcrResultAsync(image);
         var translatedText = await translationService.TranslateAsync(textResult.RawText, targetLanguage);
-        
-        // return translatedText;
-        // return RawText + translatedText
-        s.Add("Original Text: $'textResult.RawText'");
-        s.Add(translatedText);
-        return s;
-    }
-    public record TranslationResult(string OriginalText, string TranslatedText)
-    {
-        OriginalText = this.originalText
-        return OriginalText + TranslatedText;
+
+        return new TranslationResult
+        {
+            TranslatedText = translatedText,
+            OriginalText = textResult.RawText
+        };
     }
 }
