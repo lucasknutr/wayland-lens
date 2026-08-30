@@ -13,6 +13,15 @@ public class RunTranslationUseCase(
         var textResult = await ocrService.GetOcrResultAsync(image);
         var translatedText = await translationService.TranslateAsync(textResult.RawText, targetLanguage);
         
-        return translatedText;
+        // return translatedText;
+        // return RawText + translatedText
+        s.Add("Original Text: $'textResult.RawText'");
+        s.Add(translatedText);
+        return s;
+    }
+    public record TranslationResult(string OriginalText, string TranslatedText)
+    {
+        OriginalText = this.originalText
+        return OriginalText + TranslatedText;
     }
 }

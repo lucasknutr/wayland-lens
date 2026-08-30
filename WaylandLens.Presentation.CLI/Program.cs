@@ -17,7 +17,7 @@ var serviceProvider = services.BuildServiceProvider();
 
 var useCase = serviceProvider.GetRequiredService<RunTranslationUseCase>();
 
-// here you can choose your targetLanguage, I default it as en for English, but you can use it as pt for Portuguese, es for Spanish, and so on...
+// here you can choose your targetLanguage, I defaulted it as en for English, but you can use it as pt for Portuguese, es for Spanish, and so on...
 var result = await useCase.ExecuteAsync("en");
 
 Console.WriteLine($"Translation: {result}");

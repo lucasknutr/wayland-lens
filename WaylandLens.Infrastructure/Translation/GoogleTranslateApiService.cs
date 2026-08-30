@@ -9,7 +9,7 @@ public class GoogleTranslateApiService(HttpClient httpClient) : ITranslationServ
     { 
         if (string.IsNullOrWhiteSpace(text)) return string.Empty;
         
-        // Uri.EspapeDataString() method will "URL encode" our text
+        // Uri.EscapeDataString() method will "URL encode" our text
         string url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl={targetLanguage}&dt=t&q={Uri.EscapeDataString(text)}";
         var responseString = await httpClient.GetStringAsync(url);
         using var document = JsonDocument.Parse(responseString);
