@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c1WlSLs3UXM=",
+  "dgSpecHash": "xw1J5ZZFAQU=",
   "success": true,
   "projectFilePath": "/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Presentation.CLI/WaylandLens.Presentation.CLI.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,7 @@
     "/home/lucasknutr/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.11/microsoft.extensions.logging.abstractions.10.0.11.nupkg.sha512",
     "/home/lucasknutr/.nuget/packages/microsoft.extensions.options/10.0.11/microsoft.extensions.options.10.0.11.nupkg.sha512",
     "/home/lucasknutr/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.11/microsoft.extensions.options.configurationextensions.10.0.11.nupkg.sha512",
-    "/home/lucasknutr/.nuget/packages/microsoft.extensions.primitives/10.0.11/microsoft.extensions.primitives.10.0.11.nupkg.sha512",
-    "/home/lucasknutr/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.10/microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512"
+    "/home/lucasknutr/.nuget/packages/microsoft.extensions.primitives/10.0.11/microsoft.extensions.primitives.10.0.11.nupkg.sha512"
   ],
   "logs": []
 }

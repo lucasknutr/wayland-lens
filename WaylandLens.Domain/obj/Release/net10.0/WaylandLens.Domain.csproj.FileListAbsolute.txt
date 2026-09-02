@@ -1,0 +1,12 @@
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/bin/Release/net10.0/WaylandLens.Domain.deps.json
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/bin/Release/net10.0/WaylandLens.Domain.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/bin/Release/net10.0/WaylandLens.Domain.pdb
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.AssemblyInfoInputs.cache
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.AssemblyInfo.cs
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.csproj.CoreCompileInputs.cache
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.sourcelink.json
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/refint/WaylandLens.Domain.dll
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/WaylandLens.Domain.pdb
+/home/lucasknutr/repos/main/WaylandLens/WaylandLens.Domain/obj/Release/net10.0/ref/WaylandLens.Domain.dll
